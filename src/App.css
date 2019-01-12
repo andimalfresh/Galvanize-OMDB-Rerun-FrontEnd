@@ -1,32 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://i.pinimg.com/originals/aa/58/6b/aa586b0712c4211f647d7a05f1d605d6.jpg");
+  background-repeat: repeat-y;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 50px;
+  font-size: 15pt;
+  font-weight: bold;
+  display:flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  flex-direction: column
 }
-
-.App-link {
-  color: #61dafb;
+form {
+  display:flex;
+  flex-direction: column;
+  justify-content: left; 
+  align-items: left;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pushedMovies {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+ul li{
+  list-style-type: none;
+}
+img {
+  height: 450px;
+  width: 300px;
+}
+.buttonDiv {
+  display:flex;
+  justify-content: left;
+  align-items: bottom;
+}
+.movieDiv {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movieInputForm {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movieEditFormWrapper {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: row;
+}
+.movieEditForm {
+  display:flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+.movieList {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.movieWrapper {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.movieListWrapper {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.innerContainer {
+  height: 90vh;
+  width: 80vw;
+  padding: 50px;
+  background-color: tan;
+  border-style:solid;
+  border-color:brown;
+  border-width:10px;
+}
+.navDiv {
+  width: 100%;
+  background-color: brown;
+  color:tan;
+}
+.navButton {
+  font-size: 16pt;
+  margin: 20px;
+  padding: 10px;
+  background-color: brown;
+  color: tomato; 
+  border-style: solid;
+  border-color: tomato;
+}
+.editButton, .deleteButton {
+  font-size: 12pt;
+  margin: 10px;
+  padding: 10px;
+  background-color: brown;
+  color: tomato; 
+  border-style: solid;
+  border-color: tomato;
 }
